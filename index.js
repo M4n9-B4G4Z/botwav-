@@ -132,8 +132,7 @@ runtime = process.uptime()
 ┣◪ 𝗜𝗡𝗙𝗢
 ┃ ❏ Runtime: ${kyun(runtime)}
 ┃ ❏ Prefix: 「 ${prefix} 」
-┃ ❏ Selfbot By OnlyDev City
-┃ ❏ Api : https://onlydevcity.herokuapp.com/
+┃ ❏ Selfbot by BagaZ Gans
 ┃
 ┣◪ 𝗠𝗘𝗡𝗨 𝗠𝗔𝗞𝗘𝗥
 ┃
@@ -344,9 +343,9 @@ runtime = process.uptime()
 						reply(`𝗸𝗶𝗿𝗶𝗺 𝗴𝗮𝗺𝗯𝗮𝗿 𝗱𝗲𝗻𝗴𝗮𝗻 𝗰𝗮𝗽𝘁𝗶𝗼𝗻 ${prefix}𝘀𝘁𝗶𝗰𝗸𝗲𝗿 𝗮𝘁𝗮𝘂 𝗿𝗲𝗽𝗹𝘆/𝘁𝗮𝗴 𝗴𝗮𝗺𝗯𝗮𝗿`)
 					}
 					break
-		case 'notif': // Case By Nayla Chan
+		case 'info': // Case By Nayla Chan
 				onlydev.updatePresence(from, Presence.composing)
-				teks = `Notif dari @${sender.split("@")[0]}\n*Pesan : ${body.slice(7)}*`
+				teks = `Info dari @${sender.split("@")[0]}\n*Pesan : ${body.slice(7)}*`
 				group = await onlydev.groupMetadata(from);
 				member = group['participants']
 				jids = [];
